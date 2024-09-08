@@ -1,6 +1,36 @@
 # Amazon Sales Data Analysis
-1. Introduction
+
+## 1. Introduction
 The analysis focuses on exploring and visualizing Amazon sales data to identify trends and provide insights into sales performance. The dataset includes transaction-level data with various attributes.
+
+## 2. Libraries Used
+The following Python libraries were used for the analysis:
+
+- **pandas**: for data manipulation and analysis
+- **numpy**: for numerical computations
+- **matplotlib** and **seaborn**: for data visualization
+
+## 3. Data Loading
+The dataset was loaded from a Feather file format, which is efficient for handling large datasets.
+
+## 4. Data Cleaning
+A check for missing values was performed to ensure data completeness. Based on the results, appropriate cleaning steps were applied to handle any missing or incorrect data points.
+
+## 5. Exploratory Data Analysis (EDA)
+The data exploration involved summary statistics, visualizations, and identifying key patterns in the sales data. Key analyses include:
+
+- **Sales Trends Over Time**: Analyzing how sales evolved over months and years.
+- **Top-Selling Products**: Identifying products with the highest sales volumes.
+- **Revenue by Category**: Exploring which product categories contributed most to revenue.
+
+## 6. Visualizations
+The notebook contains various visualizations to better understand the sales distribution, customer preferences, and seasonality in the data. Below are some of the key visualizations:
+
+- **Sales Distribution Over Time**: A line plot showing how sales have varied over different time periods, helping to identify trends or seasonal patterns.
+  
+- **Top 10 Products by Sales Volume**: A bar plot highlighting the 10 products that have the highest sales volume, providing insights into product popularity.
+  
+- **Revenue by Product Category**: A bar plot showing total revenue by category, helping to identify which product categories contribute the most to overall revenue.
 
 
 ## Visualizations Overview
